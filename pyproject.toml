@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "llm-evaluation-raga"
+version = "0.1.0"
+description = ""
+authors = ["JPDas <jprakash.das@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ragas = "^0.2.5"
+langchain-openai = "^0.2.8"
+nltk = "^3.9.1"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
